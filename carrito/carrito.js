@@ -29,8 +29,7 @@ function cargarCarrito() {
     totalDiv.style.fontWeight = 'bold';
     totalDiv.innerHTML = `
       Total a pagar: $${total.toLocaleString('es-CO')}<br><br>
-      <button onclick="pagar()" style="padding: 10px 20px; background-color: #000; color: #fff; border-radius: 10px; border: none; cursor: pointer;">Pagar</button>
-    `;
+      <button onclick="pagar()>Pagar</button>`;
     contenedor.appendChild(totalDiv);
   }
 
