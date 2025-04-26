@@ -42,6 +42,6 @@ function cargarCarrito() {
 
 // Función para pagar
   function pagar() {
-    location.href = '../producto_comprado/compra.html';
+    location.href = '../producto comprado/compra.html';
 }
 window.onload = cargarCarrito;
