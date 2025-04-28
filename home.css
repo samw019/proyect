@@ -1,0 +1,189 @@
+/*cuerpo de la pagina*/
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*diseño del encabezado*/
+.logo {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    color: #FFFFFF;
+    display: flex;
+    padding-top: 65px;
+    padding-right: 40px;
+    list-style: none;
+    gap: 50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+header a:hover {
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #CACBC8;
+    color: #000000;
+}
+
+/*diseño del los productos(items)*/
+.productos img {
+    border-radius: 30px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 90px;
+    margin: 0;
+    column-gap: 140px;
+}
+
+.productos p {
+    font-family: lunasima;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto1 {
+    font-family: lunasima;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #CACBC8;
+    justify-items: center;
+    width: 250px;
+    text-align: center;
+}
+.producto1 button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px;
+    width: 230px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.producto2 {
+    font-family: lunasima;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #CACBC8;
+    justify-items: center;
+    width: 250px;
+    text-align: center;
+}
+.producto2 button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px;
+    width: 230px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.producto3 {
+    font-family: lunasima;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #CACBC8;
+    justify-items: center;
+    width: 250px;
+    text-align: center;
+}
+.producto3 button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px;
+    width: 230px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.productos button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.productos button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*diseño para agregar productos*/
+.productos nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*diseño del pide de página*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #272727;
+    color: #FFFFFF;
+    padding: 12px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    column-gap: 390px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+footer a:hover {
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #CACBC8;
+    color: #000000;
+}
+
+footer img {
+    width: 150px;
+    border-radius: 15px;
+}

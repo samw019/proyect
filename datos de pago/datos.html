@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./datos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="./home.html">e-comerce</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+                <li><a href="https://x.com/" target="_blank">x</a></li>
+            </ul>
+        </nav>
+        <nav class="carrito">
+            <ul>
+                <li><a href="/carrito/carrito.html" >carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <div class="container">     
+                <h2>Tallas</h2>
+                <form class="form-tallas">
+                    <div class="checkbox-group">
+                        <label for="talla-s">S</label>
+                        <input type="checkbox" id="talla-s" name="talla" value="S">
+                    </div>
+                    <div class="checkbox-group">
+                        <label for="talla-m">M</label>
+                        <input type="checkbox" id="talla-m" name="talla" value="M">
+                    </div>
+                    <div class="checkbox-group">
+                        <label for="talla-l">L</label>
+                        <input type="checkbox" id="talla-l" name="talla" value="L">
+                    </div>
+                </form>        
+            </div>
+            
+            <div class="envio">
+                <h2>Dirección de envío</h2>      
+                <form class="form-envio">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Nombre y apellido">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" placeholder="Correo electrónico">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" id="direccion" placeholder="Dirección">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="region">Región y ciudad</label>
+                        <input type="text" id="region" placeholder="Región y ciudad" maxlength="100">
+                    </div>
+                    
+                    <button type="submit">
+                        <a href="../producto comprado/compra.html">Pagar ahora</a>
+                    </button>
+                </form>
+            </div>
+        </main>
+</body>  
+          
+    <footer>
+        <ul>
+            <li><a href="e-comerce@unibaq.com">e-comerce@unibaq.com</a></li>
+            <li><a href="+57 30221xxxxx">+57 30221xxxxx</a></li>
+            <li><a href="soporte">soporte</a></li>
+        </ul>
+        <img src="/imagenes/métodos de pago.png" alt="métodos de pago">
+    </footer>
+</body>
+</html>

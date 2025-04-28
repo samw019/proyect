@@ -1,0 +1,135 @@
+/*cuerpo de la pagina*/
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*diseño del encabezado*/
+.logo {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    color: #FFFFFF;
+    display: flex;
+    padding-top: 65px;
+    padding-right: 40px;
+    list-style: none;
+    gap: 50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+header a:hover {
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #CACBC8;
+    color: #000000;
+}
+
+/* Diseño de compra realizada */
+.compra_realizada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    background-color: #8D7979;
+    padding: 40px;
+    border-radius: 50px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.compra_realizada h1, .compra_realizada h2, .compra_realizada h3 {
+    margin: 10px 0;
+}
+
+.compra_realizada {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.compra_realizada a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.compra_realizada a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.compra_realizada img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+/*diseño del pide de página*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #272727;
+    color: #FFFFFF;
+    padding: 12px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    column-gap: 390px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+footer a:hover {
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #CACBC8;
+    color: #000000;
+}
+
+footer img {
+    width: 150px;
+    border-radius: 15px;
+}
